@@ -1,0 +1,108 @@
+.app {
+  height: 100vh;
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app .outer-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: #34495e;
+}
+@media screen and (max-width: 1600px) {
+  .app .outer-block {
+    width: 470px;
+    height: 470px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .app .outer-block {
+    width: 440px;
+    height: 440px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .app .outer-block {
+    width: 410px;
+    height: 410px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .app .outer-block {
+    width: 380px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .app .outer-block {
+    width: 350px;
+    height: 350px;
+    background-color: #9980FA;
+  }
+}
+@media screen and (max-width: 552px) {
+  .app .outer-block {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .app .outer-block {
+    width: 40px;
+    height: 40px;
+  }
+}
+.app .outer-block .inner-block {
+  width: 250px;
+  height: 250px;
+  background-color: #7f8c8d;
+}
+@media screen and (max-width: 1600px) {
+  .app .outer-block .inner-block {
+    width: 220px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .app .outer-block .inner-block {
+    width: 190px;
+    height: 190px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .app .outer-block .inner-block {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .app .outer-block .inner-block {
+    width: 130px;
+    height: 130px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .app .outer-block .inner-block {
+    width: 100px;
+    height: 100px;
+    background-color: #1B1464;
+  }
+}
+@media screen and (max-width: 552px) {
+  .app .outer-block .inner-block {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .app .outer-block .inner-block {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=adaptive.css.map */

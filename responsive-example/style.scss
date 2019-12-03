@@ -1,0 +1,20 @@
+.app{
+    height: 100vh;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .outer-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 50%;
+        background-color: #34495e;
+        .inner-block{
+            width: 50%;
+            height: 50%;
+            background-color: #7f8c8d;
+        }
+    }
+}
